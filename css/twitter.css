@@ -1,13 +1,13 @@
 body{
     display:flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     background-color: aliceblue;
 }
 
 #parent{
     width: 600px;
-    height: 400px;
+    height: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,12 +16,36 @@ body{
 
 #blue{
     width: 40%;
-    height: 400px;
-    background-color: blue;
+    height: 300px;
+    background-color:#1DA1F2;
+    /* padding: 15px; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#blue>img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 6px 1px white;
+    /* margin-bottom: 20px; */
+}
+
+#blue>button{
+    /* height: 10px; */
+    font-family: sans-serif;
+    padding: 2px 30px 2px 30px;
+    font-size: 15px;
+    color: #1DA1F2;
+    border-radius: 5px solid white;
+    
 }
 
 #white{
     width: 60%;
-    height: 400px;
+    height:300px;
     background-color:white;
 }

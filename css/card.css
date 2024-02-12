@@ -10,23 +10,39 @@ body{
     margin-top: 5px;
     width: 300px;
     height: 500px;
-    background-color: rgb(17, 220, 199);
+    background-color: rgb(148, 214, 24);
+    border-radius: 10px;
+   
 }
 
 .blue{
     width: 300px;
-    height: 260px;
+    height: 250px;
     background-color: blue;
     display: flex;
     justify-content: center;
-   border-radius: 0px 0px 0px 40px;  
+   border-radius: 10px 10px 0px 40px;  
+   
+}
+
+.img{
+    height:210px;
+    width: 210px;
+    background-color:#fff;
+    border-radius: 50%;
+    margin-top: 10px;
+    padding: 5px 0px 0px 5px;
+  
+
+    
 }
 
 #profile{
     border-radius: 50%;
     height:200px;
     width: 200px;
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    border: 3px solid  green;
 }
 
 .white{
@@ -37,7 +53,8 @@ body{
     /* justify-content: center; */
     align-items: center;
     background-color: blueviolet;
-    border-radius: 0px 40px 0px 0px;
+    border-radius: 0px 40px 10px 10px;
+    
 }
 
 p{

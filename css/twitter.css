@@ -1,0 +1,27 @@
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+}
+
+#parent{
+    width: 600px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#blue{
+    width: 40%;
+    height: 400px;
+    background-color: blue;
+}
+
+#white{
+    width: 60%;
+    height: 400px;
+    background-color:white;
+}

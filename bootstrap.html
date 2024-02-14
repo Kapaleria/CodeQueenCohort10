@@ -8,10 +8,94 @@
     <link rel="stylesheet" href="./css/bootstrap.css">
 </head>
   <body>
+    <!-- nav bar starts here -->
+    <div class="navbar">
+    <nav class="navbar bg-body-tertiary fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Introduction to Bootstrap</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Introduction to Bootstrap</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">What is Bootstrap</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">How can I use it?</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Benefits</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Prerequisites</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Learn more</a>
+                  </li>
+
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Personal teacher
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Book a session</a></li>
+                    <li><a class="dropdown-item" href="#">Send</a></li>
+                    <li>
+                      <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <form class="d-flex mt-3" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- nav bar ends here -->
+
+    <!-- title -->
     <div id="intro">
         <h1>Introduction to Bootstrap</h1>
          <p>Code Queen Cohort 10</p>
+
     </div>
+    <!-- title ends here -->
+
+        <div id="definition">
+
+            <h2>What is bootstrap?</h2>
+            <p></p>
+
+            <div class="container text-center">
+                <div class="row align-items-start">
+                  <div class="col">
+                    One of three columns
+                  </div>
+                  <div class="col">
+                    One of three columns
+                  </div>
+                  <div class="col">
+                    One of three columns
+                  </div>
+                </div>
+              </div>
+        </div>
+ 
+
     
    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

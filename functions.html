@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript functions</title>
 
-
 </head>
 <body>
     
     <h3>Introduction to Functions</h3>
     
     <button onclick="greetings('Irene')">Click me</button>
+    <button onclick="greet('Irene')">Arrow</button>
 
     <script>
 
@@ -20,6 +20,10 @@
                 //function  body
                 console.log('Hello '+name)
             }
+
+            let greet=(name)=>{
+                console.log('Hello '+name)
+            };
     </script>
 </body>
 </html>
